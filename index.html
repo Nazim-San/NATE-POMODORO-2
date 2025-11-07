@@ -22,12 +22,24 @@
             </div>
         </div>
 
+        <div class="mode-toggle">
+            <button id="modeToggleBtn" class="btn btn-toggle rest">Rest Here Adventurer</button>
+        </div>
 
+        <div class="controls">
+            <button id="startBtn" class="btn btn-primary">Start</button>
+            <button id="pauseBtn" class="btn btn-secondary" disabled>Pause</button>
+            <button id="resetBtn" class="btn btn-secondary">Reset</button>
+        </div>
+
+        <div class="session-info">
+            <p>Session: <span id="sessionCount">1</span> / 4</p>
+        </div>
 
         <div class="settings">
             <h2>Settings</h2>
             <div class="setting-item">
-                <label for="workDuration">Work Duration LALALA (minutes):</label>
+                <label for="workDuration">Work Duration (minutes):</label>
                 <input type="number" id="workDuration" min="1" max="60" value="25">
             </div>
             <div class="setting-item">
